@@ -8,7 +8,12 @@
 		"vscode": {
 			"extensions": [
 				"vsls-contrib.gitdoc"
-			]
+			],
+			settings: {
+				"gitdoc.autoCommitDelay": 3000,
+				"gitdoc.enabled": true,
+				"gitdoc.commitValidationLevel": "none"
+			}
 		}
 	}
 
